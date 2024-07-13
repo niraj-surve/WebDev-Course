@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first{
+    width: 100%;
+    height: calc(100vh / 3);
+    position: absolute;
+    top: 0;
+    background-color: orange;
+}
+
+.second{
+    width: 100%;
+    height: calc(100vh / 3);
+    position: absolute;
+    top: calc(100vh / 3);
+    background-color: white;
+}
+
+.third{
+    width: 100%;
+    height: calc(100vh / 3);
+    position: absolute;
+    top: calc((100vh / 3) * 2);
+    background-color: green;
+}
+
+img{
+    width: 203px;
+    position: relative;
+    left: 45%;
+}
