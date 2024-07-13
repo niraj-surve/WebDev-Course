@@ -1,0 +1,14 @@
+.img1{
+    border: 10px solid black;
+    float: left;
+}
+
+.img2{
+    border: 10px solid black;
+    float: right;
+}
+
+footer{
+    clear: both;
+    background-color: aquamarine;
+}
