@@ -1,0 +1,136 @@
+> CSS - Cascading Style Sheet
+
+--> Used to style the webpages.		
+_______________________________________________
+
+> Types of Adding CSS
+
+--> Inline CSS - <p style="">Hello Everyone</p>
+
+--> Internal CSS - 
+	<head>
+		<style>
+			--------
+		</style>
+	</head>
+
+--> External CSS - A file with .css extension 
+
+(Show basic css such as color, background color, width, height)
+_______________________________________________
+
+> Types of Selectors
+
+1) Element Selector
+	--> Selects all elements by tag name or element name.
+	--> e.g. h1{}
+
+2) Class Selector
+	--> Selects the element with the class name.
+	--> e.g. .heading{}
+
+3) ID Selector
+	--> Selects the element with the id(unique identifier).
+	--> e.g. #heading{}
+
+4) Attribute Selector
+	--> Selects the elements with the mentioned attribute.
+	--> e.g. input[required]{}, input[type="email"]{}
+
+5) Universal Selector
+	--> Selects all the elements in the body of html page.
+	--> e.g. *{}	
+_______________________________________________
+
+> Basic CSS Properties
+_______________________________________________
+
+> Colors
+
+--> background-color - Used to set the background color of an element.
+--> color - Used to set the text color of an element.
+
+(Ways of mentioning color --> hsl, rgb, hsla, rgba, hex)
+
+_______________________________________________
+
+> Font Properties
+
+--> font-family --> Used to set the family or type of font.
+--> font-size --> Used to set the size of the font.
+--> font-weight --> Used to set the weight of the font from 100 to 700, bold, bolder.
+
+(Units in CSS)
+1px - 1/96th inch
+1pt - 1/72nd inch
+1em - 100% of parent
+1rem - 100% of root
+_______________________________________________
+
+> Border Properties
+
+--> border-width - Used to set the width of an border.
+--> border-style - Used to set the style of an border.
+--> border-color - Used to set the color of the border.
+
+--> shorthand --> border: 1px solid red;
+
+(Separate properties for setting border of each side)
+_______________________________________________
+
+Trick - Use developer tools to inspect CSS of the webpage
+_______________________________________________
+
+> CSS Box Model
+
+--> Padding --> Space between content and the border of the container.
+--> Margin --> Space from the container towards outside.
+
+_______________________________________________
+
+> Cascade (Inheritance)
+
+--> Position
+	li{
+	   color: red;
+	   color: blue;
+	}
+
+--> Specificity
+	li{ color: blue; }
+	.first-class{ color: red; }
+	li[draggable]{ color: purple; }
+	#first-id{ color: orange; }
+
+--> Type
+	<link rel="stylesheet" href="./style.css">
+	<style></style>
+	<h1 style=" ">Hello</h1>
+
+--> Importance
+	color: red;
+	color: red !important;
+_______________________________________________
+
+> Positioning
+
+--> static
+	- Default
+
+--> relative
+	- Relative to default position.
+	- Can move from its default static position.
+
+--> absolute
+	- Relative to the root parent of the browser page.
+	- Relative to the top left corner of webpage.
+	
+	--> z-index - Sets the level of view.
+
+--> fixed
+	- Relative to the top left corner of webpage.
+	- Element with fixed positioning always displayed on screen even if we scrolled the webpage.
+_______________________________________________
+
+Challenge 02 - Flag using CSS
+_______________________________________________
